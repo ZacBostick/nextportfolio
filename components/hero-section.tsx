@@ -26,7 +26,7 @@ const HeroSection = () => {
   <Image src="/Me.png" alt="Your Photo" className="w-60 h-60 rounded-full" width="100" height="100"/>
 </div>
       </motion.div>
-      <div className="md:w-1/2">
+      <div className="md:w-1/2 z-30">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
