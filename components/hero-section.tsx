@@ -23,7 +23,7 @@ const HeroSection = () => {
         className="mb-4 md:mb-0 md:mr-8"
       >
         <div className=" w-60 h-60 br-50 inline-block overflow-hidden z-20 relative">
-  <Image src="/Me.png" alt="Your Photo" className="w-60 h-60 rounded-full" width="100" height="100"/>
+  <Image src="/Me.svg" alt="Your Photo" className="w-60 h-60 rounded-full" width="100" height="100"/>
 </div>
       </motion.div>
       <div className="md:w-1/2 z-30">

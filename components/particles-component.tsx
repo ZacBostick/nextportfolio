@@ -1,40 +1,39 @@
-// components/ParticlesComponent.tsx
 import React, { useEffect } from 'react';
 
 const ParticlesComponent = () => {
    useEffect(() => {
-      require('particles.js');  // This will attach `particlesJS` to the window object
+      require('particles.js'); 
       
       if (window.particlesJS) {
         window.particlesJS('particles-js', {
           particles: {
             number: {
-              value: 40, // This determines the number of particles. Reduce as needed.
+              value: 80, 
             },
             color: {
-              value: '#ffffff' // White color, can be changed to softer color
+              value: '#ffffff' 
             },
             shape: {
               type: 'circle', 
             },
             opacity: {
-              value: 0.4, // Adjust opacity to make it less bright. Values between 0 and 1.
+              value: 0.4, 
               random: true,
             },
             size: {
-              value: 3, // Size of particles. You can adjust as per your preference.
+              value: 3, 
               random: true,
             },
             line_linked: {
               enable: true,
-              distance: 180, // Distance at which they link. You can adjust.
+              distance: 180, 
               color: '#ffffff',
-              opacity: 0.3, // Adjust opacity of lines to make them less bright.
+              opacity: 0.3, 
               width: 1,
             },
             move: {
               enable: true,
-              speed: 1, // Adjust speed. Lower value = slower movement.
+              speed: 6, 
             },
           },
           interactivity: {
@@ -42,11 +41,11 @@ const ParticlesComponent = () => {
             events: {
               onhover: {
                 enable: true,
-                mode: 'repulse', // Particles will repel away from the cursor on hover.
+                mode: 'repulse', 
               },
               onclick: {
                 enable: true,
-                mode: 'push', // New particles will be pushed/popped onto the canvas on click.
+                mode: 'push', 
               },
             },
             modes: {
@@ -64,10 +63,10 @@ const ParticlesComponent = () => {
                 speed: 3,
               },
               repulse: {
-                distance: 200, // Distance from cursor where repulsion effect will be noticeable.
+                distance: 150, 
               },
               push: {
-                particles_nb: 4, // Number of particles to push on click.
+                particles_nb: 4, 
               },
               remove: {
                 particles_nb: 2,
