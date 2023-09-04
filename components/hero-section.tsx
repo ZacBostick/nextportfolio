@@ -1,6 +1,7 @@
 "use client"
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaTwitter, FaYoutube, FaInstagram, FaAt, FaHashnode } from 'react-icons/fa6';
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = () => {
         transition={{ delay: 0.5 }}
         className="mb-4 md:mb-0 md:mr-8"
       >
-        <img src="/Me.png" alt="Your Photo" className="w-60 h-60 rounded-full" />
+        <Image src="/Me.png" alt="Your Photo" className="w-60 h-60 rounded-full" />
       </motion.div>
       <div className="md:w-1/2">
         <motion.h1
@@ -36,7 +37,7 @@ const HeroSection = () => {
           transition={{ delay: 1.5 }}
           className="text-sm md:text-base text-center md:text-left mb-4 md:px-0 px-2 md:text-lg"
         >
-          I'm a developer and currently the Co-Founder of SAIGEmind and Director of Technology at Intercollegiate Psychedelics Network.
+          I&apos;m a developer and currently the Co-Founder of SAIGEmind and Director of Technology at Intercollegiate Psychedelics Network.
         </motion.p>
       <div className="flex space-x-4 justify-center md:justify-normal">
         <motion.a

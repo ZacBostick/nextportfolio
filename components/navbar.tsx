@@ -1,7 +1,7 @@
 "use client";
 import { motion } from 'framer-motion';
 import { LightningBoltIcon, FolderIcon, BriefcaseIcon, DocumentTextIcon } from '@heroicons/react/solid';
-
+import Image from 'next/image';
 const Navbar = () => {
   return (
     <nav className="py-0.5 border-b border-zinc-700">
@@ -12,7 +12,7 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.2 }}
         >
-          <img src="/logo.svg" alt="Logo" width="200" className="cursor-pointer" />
+          <Image src="/logo.svg" alt="Logo" width="200" className="cursor-pointer" />
         </motion.a>
         
         <div className="md:block">
