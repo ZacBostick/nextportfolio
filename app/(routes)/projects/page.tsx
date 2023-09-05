@@ -11,10 +11,10 @@ const fadeInUp = {
 type ProjectData = {
     title: string;
     description: string;
-    imageSrc: string; // could be a path to a local image or a URL
-    projectLink?: string; // if there's a live link to the project
-    githubLink?: string; // if there's a link to a GitHub repo
-    technologies: string[]; // list of technologies used in the project
+    imageSrc: string; 
+    projectLink?: string; 
+    githubLink?: string; 
+    technologies: string[]; 
 };
 
 const projects: ProjectData[] = [
@@ -35,7 +35,7 @@ const projects: ProjectData[] = [
     },
     {
         title: "Private YouTube Sync",
-        description: "This innovative tool circumvents YouTube API&apos;s limitations on private/unlisted videos. By fetching data from an organization's channel, it displays all videos in an app, regardless of their privacy status, making it an invaluable tool for organizations.",
+        description: "This innovative tool circumvents YouTube API's limitations on private/unlisted videos. By fetching data from an organization's channel, it displays all videos in an app, regardless of their privacy status, making it an invaluable tool for organizations.",
         imageSrc: "/pys.png",
         githubLink: "https://github.com/zac-bostick/PrivateYoutubeSync",
         technologies: ["JavaScript", "OAuth2", "Json2CSV", "Google API", "Express"] 

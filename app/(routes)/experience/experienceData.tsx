@@ -12,7 +12,7 @@ export const experiences: ExperienceData[] = [
     {
         position: "Director of Technology",
         company: "Intercollegiate Psychedelics Network",
-        startDate: "2022-01-01",
+        startDate: "2022",
         responsibilities: [
             "Orchestrated the design, development, and deployment of a cross-platform application using Flutter and Firebase.",
             "Conceptualized and executed a self-hosted Wordpress site in AWS, reducing organizational costs by 200%.",
@@ -25,8 +25,8 @@ export const experiences: ExperienceData[] = [
     {
         position: "Computer Science B.S.",
         company: "Arizona State University",
-        startDate: "2020-01-01",
-        endDate: "2024-05-01",
+        startDate: "2020",
+        endDate: "2024",
         responsibilities: [
             "Bachelor of Science in Computer Science with a Concentration in Artificial Intelligence."
         ],
@@ -35,7 +35,7 @@ export const experiences: ExperienceData[] = [
     {
         position: "Freelance Software Developer",
         company: "Freelance",
-        startDate: "2019-01-01",
+        startDate: "2019",
         responsibilities: [
             "Offer client-centric web and application development solutions, employing diverse stacks like Headless Wordpress with React, Wordpress, and Django/Python.",
             "Specialize in responsive app development using Flutter and React Native.",
@@ -46,8 +46,8 @@ export const experiences: ExperienceData[] = [
     {
         position: "Software Developer",
         company: "Pittman Media Group",
-        startDate: "2020-01-01",
-        endDate: "2021-01-01",
+        startDate: "2020",
+        endDate: "2021",
         responsibilities: [
             "Developed intuitive software solutions, including a GUI for remote camera and camera tracking.",
             "Led the design and implementation of office network infrastructure.",
@@ -58,8 +58,8 @@ export const experiences: ExperienceData[] = [
     {
         position: "Web Developer/Operations Lead",
         company: "Dava Oncology",
-        startDate: "2018-01-01",
-        endDate: "2020-01-01",
+        startDate: "2018",
+        endDate: "2020",
         responsibilities: [
             "Supported COO and CTO in technical and logistical operations.",
             "Established and maintained complex office networks in a multi-floor business environment.",
@@ -70,8 +70,8 @@ export const experiences: ExperienceData[] = [
     {
         position: "Student",
         company: "Coding Dojo",
-        startDate: "2018-01-01",
-        endDate: "2019-01-01",
+        startDate: "2018",
+        endDate: "2019",
         responsibilities: [
             "Completed a six-month intensive bootcamp learning three full stacks: Django/Python, Ruby on Rails, and MERN."
         ],
@@ -80,8 +80,8 @@ export const experiences: ExperienceData[] = [
     {
         position: "Digital Services Specialist",
         company: "PSAV/Encore",
-        startDate: "2014-01-01",
-        endDate: "2018-01-01",
+        startDate: "2014",
+        endDate: "2018",
         responsibilities: [
             "Worked closely with clients and internal teams to ensure seamless execution of digital engagement strategies, content management, and mobile applications tailored to each event.",
             "Delivered high-quality digital services in medical conferences, honing skills in remote collaboration, project management, and technical support."
@@ -91,8 +91,8 @@ export const experiences: ExperienceData[] = [
     {
         position: "Student",
         company: "Musicians Institute",
-        startDate: "2012-01-01",
-        endDate: "2014-01-01",
+        startDate: "2012",
+        endDate: "2014",
         responsibilities: [
             "Gained valuable knowledge and hands-on experience in various aspects of music production, including recording, mixing, and mastering techniques.",
             "Worked with state-of-the-art equipment and industry-standard software.",
@@ -100,5 +100,4 @@ export const experiences: ExperienceData[] = [
         ],
         location: "N/A"
     }
-    // ... You can add more experience data as needed
 ];
