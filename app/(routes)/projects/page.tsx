@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer-section";
-
+import Image from 'next/image'
 const fadeInUp = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 }
@@ -92,7 +92,7 @@ const ProjectsSection = () => {
                     className="bg-slate-900 rounded-lg hover:shadow-lg transition transform cursor-pointer p-6 space-y-4"
                     role="article"
                 >
-                    <img src={project.imageSrc} alt={project.title} className="rounded" />
+                    <Image src={project.imageSrc} alt={project.title} className="rounded" />
                     <h3 className="text-lg font-bold">{project.title}</h3>
                     <p className="text-sm font-medium opacity-80">{project.description}</p>
                     <ul className="flex flex-wrap space-x-2">

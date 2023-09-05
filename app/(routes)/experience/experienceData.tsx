@@ -1,11 +1,12 @@
-export type ExperienceData = {
-    position: string;
+export interface ExperienceData {
     company: string;
-    startDate: string; // YYYY-MM-DD format
-    endDate?: string; // YYYY-MM-DD format (might be empty if it's a current position)
-    responsibilities: string[];
+    startDate: string;
+    endDate?: string;
+    position: string;
     location: string;
-};
+    responsibilities: string[];
+}
+
 
 export const experiences: ExperienceData[] = [
     {
