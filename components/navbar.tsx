@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="py-0.5 border-b border-zinc-700 bg-[#09090B] sticky z-10">
       <div className="container mx-auto flex items-center justify-between ">
         <motion.a
-          href="#"
+          href="/"
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.2 }}
@@ -23,7 +23,7 @@ const Navbar = () => {
               transition={{ delay: 0.2 }}
             >
               <a
-                href="#about"
+                href="/skills"
                 className="flex items-center text-gray-300 hover:text-white transition duration-300 ease-in-out"
               >
                 <div className="w-6 h-6 md:mr-2">
@@ -38,7 +38,7 @@ const Navbar = () => {
               transition={{ delay: 0.3 }}
             >
               <a
-                href="#portfolio"
+                href="/projects"
                 className="flex items-center text-gray-300 hover:text-white transition duration-300 ease-in-out"
               >
                 <div className="w-6 h-6 md:mr-2">
@@ -53,7 +53,7 @@ const Navbar = () => {
               transition={{ delay: 0.4 }}
             >
               <a
-                href="#contact"
+                href="/experience"
                 className="flex items-center text-gray-300 hover:text-white transition duration-300 ease-in-out"
               >
                 <div className="w-6 h-6 md:mr-2">
@@ -68,7 +68,7 @@ const Navbar = () => {
               transition={{ delay: 0.5 }}
             >
               <a
-                href="#contact"
+                href="/resume.pdf"
                 className="flex items-center text-gray-300 hover:text-white transition duration-300 ease-in-out"
               >
                 <div className="w-6 h-6 md:mr-2">
