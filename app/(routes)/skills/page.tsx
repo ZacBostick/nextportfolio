@@ -41,7 +41,7 @@ const SkillsSection = () => {
             <div className="text-center py-6">
                 <h1 className="text-4xl md:text-6xl font-bold tracking-tighter">Skills & Technologies</h1>
                 <p className="text-lg mt-6 md:text-xl font-medium opacity-80">
-                    Technologies and tools I'm adept at.
+                    Technologies and tools I&apos;m adept at.
                 </p>
             </div>
             

@@ -20,7 +20,7 @@ const ExperienceSection = () => {
                 <div className="text-center py-6">
                     <h1 className="text-4xl md:text-6xl font-bold tracking-tighter">My Experience</h1>
                     <p className="text-lg mt-6 md:text-xl font-medium opacity-80">
-                        Over the years, I've had the privilege to work with some fantastic companies. Here's a brief overview of my journey so far.
+                        Over the years, I&apos;ve had the privilege to work with some fantastic companies. Here&apos;s a brief overview of my journey so far.
                     </p>
                 </div>
                 

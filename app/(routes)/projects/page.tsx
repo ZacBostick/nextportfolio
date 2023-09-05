@@ -20,7 +20,7 @@ type ProjectData = {
 const projects: ProjectData[] = [
     {
         title: "GenLabs AI Platform",
-        description: "A next-gen content creation hub powered by AI. Built with Next.js, React, and Tailwind. Prisma-backed operations, Clerk's security, Stripe's payment integration, and Crisp chat support make it a top choice for digital creators. Hosted on Vercel.",
+        description: "A next-gen content creation hub powered by AI. Built with Next.js, React, and Tailwind. Prisma-backed operations, Clerk&apos;s security, Stripe&apos;s payment integration, and Crisp chat support make it a top choice for digital creators. Hosted on Vercel.",
         imageSrc: "/genlabslogo.png",
         projectLink: "https://genlabsai.com/",
         githubLink: "https://github.com/zac-bostick/genlabsai",
@@ -35,7 +35,7 @@ const projects: ProjectData[] = [
     },
     {
         title: "Private YouTube Sync",
-        description: "This innovative tool circumvents YouTube API's limitations on private/unlisted videos. By fetching data from an organization's channel, it displays all videos in an app, regardless of their privacy status, making it an invaluable tool for organizations.",
+        description: "This innovative tool circumvents YouTube API&apos;s limitations on private/unlisted videos. By fetching data from an organization&apos;s channel, it displays all videos in an app, regardless of their privacy status, making it an invaluable tool for organizations.",
         imageSrc: "/pys.png",
         githubLink: "https://github.com/zac-bostick/PrivateYoutubeSync",
         technologies: ["JavaScript", "OAuth2", "Json2CSV", "Google API", "Express"] 
@@ -77,7 +77,7 @@ const ProjectsSection = () => {
         <div className="text-center py-6">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tighter">My Projects</h1>
             <p className="text-lg mt-6 md:text-xl font-medium opacity-80">
-                Some of the things I've built.
+                Some of the things I&apos;ve built.
             </p>
         </div>
         
