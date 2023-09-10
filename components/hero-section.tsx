@@ -56,7 +56,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2 }}
-          href="https://github.com/zac-bostick"
+          href="https://github.com/ZacBostick"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-white transition duration-300 ease-in-out"
